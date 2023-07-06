@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .modal {
+        width: 90%;
+      }
+
+      .input-field {
+        width: 250px;
+      }
+
+      .radio-section {
+        display: flex;
+        margin-bottom: 18px;
+        gap: 12px;
+      }
+
+      .cs-type {
+        margin-right: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="./screen4.html">Screen4</a></li>
+      <li><a href="./screen6.html">Screen6</a></li>
+    </ul>
+
+    <h1>SCREEN 6</h1>
+
+    <section class="modal">
+      <div class="modal-header">
+        <h4>Search Customer</h4>
+        <!-- <span class="material-icons"> cancel </span> -->
+      </div>
+
+      <div class="modal-body">
+        <div class="radio-section">
+          <div class="cs-type">Customer Type</div>
+          <div>
+            <input type="radio" name="cust-type" id="individual" checked />
+            <label for="individual">Individual Customer</label>
+          </div>
+
+          <div>
+            <input type="radio" name="cust-type" id="entity" />
+            <label for="entity">Entity Customer</label>
+          </div>
+        </div>
+        <div class="form-section">
+          <div class="input-field">
+            <label for="">First Name</label>
+            <input type="text" />
+          </div>
+
+          <div class="input-field">
+            <label for="">Last Name</label>
+            <input type="text" />
+          </div>
+
+          <div class="input-field">
+            <label for="">Country Code</label>
+            <input type="text" />
+          </div>
+
+          <div class="input-field">
+            <label for="">Mobile No</label>
+            <input type="text" />
+          </div>
+
+          <div class="input-field">
+            <label for="">Email</label>
+            <input type="text" />
+          </div>
+
+          <div class="input-field">
+            <label for="">National Id</label>
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="search-section">
+        <button class="primary-button">Search</button>
+      </div>
+    </section>
+  </body>
+</html>
